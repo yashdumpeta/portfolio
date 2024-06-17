@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    background-color: black;
+    font-family: 'DM Sans';
+}
+
+.name {
+    color: white;
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+}
+
+.college {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
