@@ -1,20 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
-* {
-    background-color: black;
-    font-family: 'DM Sans';
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Change this from center to flex-start */
+    max-width: 1230px;
+    padding: 0 20px;
+    margin: 0 auto; /* Add this to center the container itself */
+    margin-top: 26vh;
+    height: 100vh;
 }
 
 .name {
     color: white;
-    font-size: 4.5rem;
+    font-size: 6.8rem;
     font-weight: 700;
-    letter-spacing: 0.1rem;
-    margin-bottom: 1rem;
+    letter-spacing: -6.5px;
+    margin-bottom: 0; /* Remove bottom margin */
+    text-align: left; /* Ensure left alignment */
 }
 
 .college {
-    color: white;
+    margin-top: 0.5rem;
     font-size: 1.2rem;
     font-weight: 400;
+    color: white;
+    text-align: left; /* Ensure left alignment */
+    padding-left: 4px;
 }

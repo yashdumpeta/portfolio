@@ -8,11 +8,15 @@ const LandingPage = () => {
   // const [textVisible, setTextVisible] = useState(false);
 
   return (
-    <div>
-      <h1 className='name'> Yash Dumpeta </h1>
-      <p className='college'>Computer Science @ University of Michigan - Ann Arbor</p>
+    <div className="main-container">
+      <div className="intro-container">
+        <h1 className='name'>Yash Dumpeta</h1>
+        <p className='college'>Computer Science @ University of Michigan - Ann Arbor</p>
+      </div>
     </div>
   );
 }
+
+
 
 export default LandingPage
