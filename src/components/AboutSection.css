@@ -26,15 +26,14 @@
 #about-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;  /* Change from center to flex-start */
     height: fit-content;
-    /* Match this with the navbar max-width */
     width: 100%;
+    max-width: 1200px;  /* Add a max-width to constrain the content */
     margin: 0 auto;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 80px;  /* Use padding instead of padding-top and padding-bottom */
     background-color: black;
-    /* Match this with the navbar padding */
+    border-radius: 10px;
 }
 
 #name-highlight{
