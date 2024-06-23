@@ -2,15 +2,7 @@ src/components/Header.css .main-container {
   width: 100%;
 }
 
-.main-container header {
-  height: 80px;
-  /* Adjust this value as needed */
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-}
+
 
 .navbar {
   display: flex;
@@ -20,6 +12,20 @@ src/components/Header.css .main-container {
   margin: 0 auto;
   padding: 0 20px;
   padding-top: 34px;
+  height: 80px;
+  /* Add a fixed height */
+}
+
+.main-container header {
+  background-color: transparent;
+  /* Make sure header is transparent */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  /* border-bottom: 1.2px solid #fff; Add a bottom border */
+
 }
 
 .navbar-left {
@@ -68,8 +74,15 @@ src/components/Header.css .main-container {
 .navbar-right .resume {
   margin-left: 40px;
   /* Additional spacing for the Projects element */
-  font-weight: 500;
+  font-weight: 600;
   font-size: 0.96em;
+}
+
+.navbar-right .Projects:hover,
+.navbar-right .socials:hover,
+.navbar-right .home:hover,
+.navbar-right .resume:hover {
+  border-bottom: 1px solid #fff;
 }
 
 @media (max-width: 768px) {
