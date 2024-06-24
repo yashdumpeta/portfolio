@@ -1,0 +1,54 @@
+.intro-section {
+    justify-content: flex-start;
+    padding-top: 33vh;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1220px; /* Match this with the navbar max-width */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.name {
+    color: white;
+    font-size: 6.8rem;
+    font-weight: 700;
+    letter-spacing: -6.5px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+
+.college {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: white;
+    text-align: left;
+    padding-left: 4px;
+}
+
+
+.scroll_to_about{
+    background: transparent;
+    border: none;
+    color: white;
+    margin-top: 5px;
+    font-size: 2em;
+    transition: transform 0.3s ease;
+}
+
+.scroll_to_about:hover{
+    cursor: pointer;
+    transform: translateY(5px); /* Move the arrow down slightly on hover */
+}
+
+.scroll_to_about:hover strong {
+    animation: bounce 0.5s infinite;
+}
+
+
+
