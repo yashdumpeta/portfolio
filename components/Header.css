@@ -69,9 +69,8 @@ src/components/Header.css .main-container {
 }
 
 .navbar-right .Projects,
-.navbar-right .socials,
-.navbar-right .home,
-.navbar-right .resume {
+.navbar-right .Experience,
+.navbar-right .home {
   margin-left: 40px;
   /* Additional spacing for the Projects element */
   font-weight: 600;
@@ -80,7 +79,7 @@ src/components/Header.css .main-container {
 }
 
 .navbar-right .Projects:hover,
-.navbar-right .socials:hover,
+.navbar-right .Experience:hover,
 .navbar-right .home:hover,
 .navbar-right .resume:hover {
   border-bottom: 1px solid #fff;
