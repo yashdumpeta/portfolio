@@ -26,7 +26,6 @@ const Header = () => {
                         <Link className='Experience' to="/experience">Experience</Link>
                         <Link className='Projects' to="/projects">Projects</Link>
                     </div>
-                    <div></div>
                 </nav>
             </header>
         </div>

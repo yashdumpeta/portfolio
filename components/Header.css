@@ -13,19 +13,15 @@ src/components/Header.css .main-container {
   padding: 0 20px;
   padding-top: 34px;
   height: 80px;
-  /* Add a fixed height */
 }
 
 .main-container header {
   background-color: transparent;
-  /* Make sure header is transparent */
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1000;
-  /* border-bottom: 1.2px solid #fff; Add a bottom border */
-
 }
 
 .navbar-left {

@@ -1,6 +1,8 @@
 .intro-section {
     justify-content: flex-start;
-    padding-top: 33vh;
+    align-items: center;
+    display: flex;
+    height: calc(100vh - 80px); /* Subtract header height */
 }
 
 .intro-container {
@@ -9,7 +11,7 @@
     align-items: flex-start;
     max-width: 1220px; /* Match this with the navbar max-width */
     width: 100%;
-    margin: 0 auto;
+    padding: 0 20px; /* Add horizontal padding */
 }
 
 .name {
