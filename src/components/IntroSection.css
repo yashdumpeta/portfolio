@@ -1,6 +1,9 @@
 .intro-section {
     justify-content: flex-start;
-    padding-top: 33vh;
+    align-items: center;
+    display: flex;
+    height: calc(100vh - 60px);
+    padding: 20px;
 }
 
 .intro-container {
@@ -9,7 +12,7 @@
     align-items: flex-start;
     max-width: 1220px; /* Match this with the navbar max-width */
     width: 100%;
-    margin: 0 auto;
+    padding: 0 10px; /* Add horizontal padding */
 }
 
 .name {
@@ -19,6 +22,7 @@
     letter-spacing: -6.5px;
     margin-bottom: 0;
     text-align: left;
+    font-size: clamp(3rem, 10vw, 6.8rem);
 }
 
 
@@ -29,6 +33,15 @@
     color: white;
     text-align: left;
     padding-left: 4px;
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
+
+}
+
+@media (max-width: 768px) {
+    .intro-section {
+        height: auto;
+        min-height: calc(100vh - 60px);
+    }
 }
 
 

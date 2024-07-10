@@ -23,11 +23,9 @@ const Header = () => {
                     </div>
                     <div className="navbar-right">
                         <Link className='home' to="/">Home</Link>
+                        <Link className='Experience' to="/experience">Experience</Link>
                         <Link className='Projects' to="/projects">Projects</Link>
-                        <Link className='resume' to="/resume">Resume</Link>
-                        <Link className="socials" to="/contact">Contact</Link>
                     </div>
-                    <div></div>
                 </nav>
             </header>
         </div>

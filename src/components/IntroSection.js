@@ -1,6 +1,5 @@
 import React from 'react'
 import './IntroSection.css'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
 const IntroSection = () => {
 
     const direct_to_about_section = () => {

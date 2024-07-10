@@ -21,6 +21,7 @@ const LandingPage = () => {
         <div id='footer-left'>
           <button id='scroll-top' onClick={scrollTop}> ↗</button>
         </div>
+        <div id='footer-name'> Yash Dumpeta</div>
         <div id='footer-right'>
           <a href='https://github.com/yashdumpeta'>
             <FaGithub id='github-logo' />

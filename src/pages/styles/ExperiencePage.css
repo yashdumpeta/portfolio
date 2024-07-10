@@ -1,0 +1,150 @@
+.main-container {
+    flex-direction: column;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 10vh;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 1220px; /* Match this with the navbar max-width */
+    width: 100%;
+    padding-bottom: 15vh;
+
+}
+
+.education{
+    width: 100%;
+}
+
+
+#education-header{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: whitesmoke;
+    background: black;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.education-info{
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjust this value to control space between logo and text */
+}
+
+#mich-logo{
+    width: 14%; /* Adjust this percentage as needed */
+    max-width: 200px; /* This ensures it doesn't get too large on big screens */
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-shrink: 0; /* Prevents the logo from shrinking */
+}
+
+.college-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+#college-info{
+    display: inline-block;
+    flex-wrap: wrap;
+    color: whitesmoke;
+    letter-spacing: -0.3px;
+}
+
+#major{
+    margin-top: 2px; /* Add a small margin-top */
+    padding-top: 0; /* Reduce padding-top to 0 */
+    color: whitesmoke;
+    letter-spacing: -0.3px;
+}
+
+#uni-ranking{
+    margin-top: 2px; /* Add a small margin-top */
+    padding-top: 0; /* Reduce padding-top to 0 */
+    font-style: italic;
+    color: whitesmoke;
+    letter-spacing: -0.3px;
+}
+
+
+
+
+.work{
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+#work-header{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: whitesmoke;
+    background: black;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.work-info{
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjust this value to control space between logo and text */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.work-logo{
+    width: 14%; /* Adjust this percentage as needed */
+    max-width: 200px; /* This ensures it doesn't get too large on big screens */
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-shrink: 0; /* Prevents the logo from shrinking */
+}
+
+#work-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.organization-name {
+    align-items: center;
+    width: 100%;
+    color: whitesmoke;
+    letter-spacing: -0.3px;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+#work-time-period {
+    padding-left: 7px;
+    font-size: 0.8em;
+    color: #a0a0a0;
+    font-weight: normal;
+    margin-left: auto; /* This pushes the time period to the right */
+
+}
+
+.work-position {
+    margin-top: 2px;
+    padding-top: 0;
+    color: whitesmoke;
+    letter-spacing: -0.3px;
+    font-style: italic;
+    font-weight: 450;
+}
+
+.work-description{
+    color: white;
+    font-weight: 300;
+}
