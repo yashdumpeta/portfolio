@@ -1,14 +1,14 @@
 import React from 'react'
 import './SkillSection.css'
 import { FaJs, FaHtml5, FaCss3, FaRProject, FaDatabase } from 'react-icons/fa'
-import { SiCplusplus, SiC, SiJulia, SiAnaconda, SiVisualstudiocode, SiPython } from "react-icons/si";
-import { SiDjango, SiReact, SiPandas, SiSqlite, SiMysql, SiGithub } from "react-icons/si";
+import { SiCplusplus, SiC, SiJulia, SiAnaconda, SiVisualstudiocode, SiPython, SiPostgresql, SiPowerbi, SiMicrosoftsharepoint, SiJupyter, SiNumpy } from "react-icons/si";
+import { SiDjango, SiReact, SiPandas, SiSqlite, SiGithub } from "react-icons/si";
 
 const SkillSection = () => {
   return (
     <div className="section skill-section">
       <div id="skill-container">
-        <h1 id='skills-header'>💻  Skills</h1>
+        <h1 id='skills-header'>💻  My Skills</h1>
         <br />
         <br />
         <div id='languages_section'>
@@ -56,6 +56,9 @@ const SkillSection = () => {
               <SiPandas /> <span className='skill-name'>Pandas</span>
             </div>
             <div className="skill-item">
+              <SiNumpy /> <span className='skill-name'>NumPy</span>
+            </div>
+            <div className="skill-item">
               <span className='skill-name'>Seaborn</span>
             </div>
             <div className="skill-item">
@@ -64,8 +67,8 @@ const SkillSection = () => {
             <div className="skill-item">
               <SiSqlite /> <span className='skill-name'>SQLite</span>
             </div>
-            <div className="skill-item">
-              <SiMysql /> <span className='skill-name'>MySQL</span>
+            <div className='skill-item'>
+              <SiPostgresql /> <span className='skill-name'>PostgreSQL</span>
             </div>
           </div>
         </div>
@@ -80,6 +83,15 @@ const SkillSection = () => {
             </div>
             <div className="skill-item">
               <SiAnaconda /> <span className='skill-name'>Anaconda</span>
+            </div>
+            <div className="skill-item">
+              <SiPowerbi /><span className='skill-name'>PowerBI</span>
+            </div>
+            <div className="skill-item">
+              <SiJupyter /><span className='skill-name'>Jupyter</span>
+            </div>
+            <div className="skill-item">
+              <SiMicrosoftsharepoint /><span className='skill-name'>Microsoft Sharepoint</span>
             </div>
           </div>
         </div>

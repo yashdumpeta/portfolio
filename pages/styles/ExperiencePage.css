@@ -2,11 +2,12 @@
     flex-direction: column;
     display: flex;
     margin: 0 auto;
+    padding-top: 10vh;
     justify-content: flex-start;
-    padding-top: 15vh;
     align-items: flex-start;
     max-width: 1220px; /* Match this with the navbar max-width */
     width: 100%;
+    padding-bottom: 15vh;
 
 }
 
@@ -121,6 +122,8 @@
     width: 100%;
     color: whitesmoke;
     letter-spacing: -0.3px;
+    border: none;
+    border-bottom: 1px solid white;
 }
 
 #work-time-period {
@@ -137,8 +140,11 @@
     padding-top: 0;
     color: whitesmoke;
     letter-spacing: -0.3px;
+    font-style: italic;
+    font-weight: 450;
 }
 
 .work-description{
-
+    color: white;
+    font-weight: 300;
 }
