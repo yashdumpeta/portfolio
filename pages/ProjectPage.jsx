@@ -1,26 +1,28 @@
 import React from 'react'
 import './styles/ProjectPage.css'
+import {FaBookOpenReader } from 'react-icons/fa6'
 
 const ProjectPage = () => {
 
   const projects = [
     {
-      title: "ad",
+      title: "recalld",
       image: "asd",
-      source_code: "s",
+      source_code: "",
       tech_used: "d",
       concept_tags: "d",
       description: "s",
     },
   ]
 
+
   return (
     <div className='main-container'>
       <div className='projects'>
-        <h1 id='projects-header'>Projects</h1>
+        <h1 id='projects-header'> <FaBookOpenReader style={{paddingRight: '10px'}}/>My Projects</h1>
         {projects.map((project, index) => (
           <div className="project-info" key={index}>
-            <img className='project-image' src={project.image} alt='__' />
+            <img className='project-image' src={project.image} alt='project-img'/>
             <div className="project-info">
               <h2 className="title">
                 {project.title}
@@ -35,7 +37,7 @@ const ProjectPage = () => {
                 {project.concept_tags}
               </p>
               <p id="source-code">
-                {project.source_code}
+                <a href={project.source_code} className="source-code-tag" target='_blank' rel="noopener noreferrer"></a>  
               </p>
             </div>
           </div>
