@@ -22,7 +22,7 @@ const ExperiencePage = () => {
             company: "Skylark Drones",
             period: "(June 2023 - August 2023)",
             position: "Research Intern",
-            description: "As a research intern, I was incharge of conducting research to compile information on topics to train aspiring Drone Operators in India. I collaborated with the Government of India Ministry of Skill Development & Entrepreneurship to develop a comprehensive drone operator course tailored for surveying and topography. I utilized Python and the Tkinter interface to develop a user-friendly UI that streamlined the conversion of extensive thermal image datasets from their native R-JPEG format to .TIFF format. This UI included features such sa input validation, porgress bars and real time user feedback. " , 
+            description: "As a research intern, I was incharge of conducting research to compile information on topics to train aspiring Drone Operators in India. I collaborated with the Government of India Ministry of Skill Development & Entrepreneurship to develop a comprehensive drone operator course tailored for surveying and topography. I utilized Python and the tkinter interface to develop a user-friendly UI that streamlined the conversion of extensive thermal image datasets from their native R-JPEG format to .TIFF format. This UI included features such sa input validation, porgress bars and real time user feedback. " , 
             logo: skylark
         },
         {
